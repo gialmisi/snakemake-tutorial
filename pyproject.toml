@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "snakemake-tutorial"
+version = "0.1.0"
+description = "Snakemake tutorial."
+authors = ["Giovanni Misitano <giovanni.a.misitano@jyu.fi>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8.0"
+
+[tool.poetry.dev-dependencies]
+snakemake = "^7.14.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
