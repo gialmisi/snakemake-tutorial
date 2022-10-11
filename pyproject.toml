@@ -7,9 +7,14 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = ">=3.8.0"
+matplotlib = "^3.6.0"
+pysam = "^0.19.1"
 
 [tool.poetry.dev-dependencies]
 snakemake = "^7.14.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
